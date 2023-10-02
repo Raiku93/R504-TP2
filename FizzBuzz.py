@@ -1,2 +1,3 @@
-
-import unittest
+class FizzBuzz():
+    def affiche():
+        pass
