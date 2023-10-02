@@ -1,5 +1,5 @@
 class FizzBuzz():
-    def affiche():
+    def affiche(self):
         liste = ""
         for i in range(1, 101):
             if i % 15 == 0:
@@ -11,3 +11,4 @@ class FizzBuzz():
             else:
                 liste += str(i)
         print(liste)
+        return liste
