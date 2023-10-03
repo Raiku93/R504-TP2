@@ -5,10 +5,12 @@ class Cryptage_Test(unittest.TestCase):
     def setUp(self):
         self.instance=Cryptage()
 
+
+
     def test_crypt_message(self):
-         message = "Salut les amis !"
-         self.assertEqual(self.instance.crypt(), "")
-    
+        message = "Comment ça mon reuf ?"
+        self.assertEqual(self.instance.crypt(message), "")
+
 
 
 if __name__ == '__main__':
