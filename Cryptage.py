@@ -16,3 +16,5 @@ class Cryptage:
         return message_crypte
 
 
+    def decrypt()
+        pass
