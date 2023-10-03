@@ -6,9 +6,9 @@ class TestFizzBuzz(unittest.TestCase):
          self.instance=FizzBuzz()
 
     def test_affiche_deux_param(self):
-         nombre1 = 5
-         nombre2 = 10
-         self.assertEqual(self.instance.affiche(nombre1, nombre2), "BuzzFizz78FizzBuzz")
+         nombre1 = 10
+         nombre2 = 16
+         self.assertEqual(self.instance.affiche(nombre1, nombre2), "Buzz11Fizz1314FrisBee16")
     
 
 
