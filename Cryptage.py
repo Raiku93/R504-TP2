@@ -1,7 +1,7 @@
 import string
 
 class Cryptage():
-    def crypt(message):
+    def crypt(self, message):
         caracteres = string.ascii_letters + string.punctuation + string.digits + " "
         message_crypte = ""
 
