@@ -13,8 +13,8 @@ class Cryptage:
             else:
                 message_crypte += lettre
 
+        message_crypte += str(pas)
         return message_crypte
 
-
-    def decrypt()
+    def decrypt():
         pass
