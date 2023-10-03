@@ -17,4 +17,15 @@ class Cryptage:
         return message_crypte
 
     def decrypt():
-        pass
+        caracteres = string.ascii_letters + string.punctuation + string.digits + " "
+        message_decrypte = ""
+
+        for lettre in message:
+            if lettre in caracteres:
+                index = caracteres.index(lettre)
+                lettre_decryptee = caracteres[(index - pas) % len(caracteres)]
+                message_decrypte += lettre_decryptee
+            else:
+                message_decrypte += lettre
+
+        return message_decrypte
