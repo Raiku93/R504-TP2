@@ -13,5 +13,11 @@ class Cryptage:
             else:
                 message_crypte += lettre
 
-        message_crypte += str(pas)
         return message_crypte
+
+
+cryptage = Cryptage()
+message = "123457"
+pas = 7  # Exemple de pas
+message_crypte = cryptage.crypt(message, pas)
+print("Message crypté :", message_crypte)
